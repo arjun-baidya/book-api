@@ -36,7 +36,6 @@ const displaySearchResult = books => {
         div.innerHTML =`
         <div class="card-group mb-4">
             <div class="card">
-                // dynamic image url
                 <img src="https://covers.openlibrary.org/b/id/${book.cover_i ? book.cover_i:'null'}-M.jpg" height="300" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center">Book Name :  ${book.title ? book.title:'null'}</h5>
